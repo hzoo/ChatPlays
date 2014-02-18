@@ -5,6 +5,8 @@ Using MutationObservers in the browser to send to socket.io to run keyboard even
 
 Code is just hacked together so don't expect too much!
 
+![](http://i.imgur.com/AmNuB5E.png)
+
 ##General Method##
 
 - Get chat (twitch, etc)
