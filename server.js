@@ -1,8 +1,8 @@
 //if linux run: "node server.js linux"
-var os = process.argv.slice(2).length == 1 ? process.argv[2] : 'windows';
+var os = process.argv.slice(2).length >= 1 ? process.argv[2] : 'windows';
 console.log(os);
 var windowID = "";
-var programName = process.argv.slice(2).length == 1 ? process.argv[3] : 'Desmume';
+var programName = process.argv.slice(2).length >= 1 ? process.argv[3] : 'Desmume';
 
 var io = require('socket.io').listen(8000),
     sys = require('sys'),
