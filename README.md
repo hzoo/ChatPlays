@@ -3,7 +3,7 @@
 A way to crowdsource commands to a program (inspired by TwitchPlaysPokemon)
 Using MutationObservers in the browser to send to socket.io to run keyboard events through xdotool or win32api.
 
-INFO: Check out https://github.com/eltacodeldiablo/TwitchPlaysX for an version using IRC.
+##INFO: Check out https://github.com/eltacodeldiablo/TwitchPlaysX for a less hacky version using IRC.
 
 Code is just hacked together so don't expect too much!
 
